@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-image: url('../API2/assets/portalGif.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="marvelAPI.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
+    <title>Marvel Universe API</title>
 
-    <h1>Marvel Universe: Character Directory</h1>
+    <h1 class="marvelUcd" style="color: white; ">Marvel Universe: Character Directory</h1>
         <div class= "wrapper">
             <div class= "searchControls">
-                <p>The Marvel Universe has many superheros to root for, as well as villains to root against! Check out this directory of hundreds of Marvel characters. Avengers, Assemble!</p>
+                <p class ="welcomeMessage" style="color:whitesmoke;">The Marvel Universe has many superheros to root for, as well as villains to root against! Check out this directory of hundreds of Marvel characters. Avengers, Assemble!</p>
                 <!-- Seach Form -->
                 <form>
                     <label for="search">Enter a Marvel Superhero: </label>
                     <input type="text" id="search" class="search" required>
                     <br>
                     <br>
-                    <button class="submit">Submit search</button>
+                    <button class="submit" style= "color: silver; background-color: rgb(61, 7, 148);">Submit search</button>
                 </form>  
             </div>
     

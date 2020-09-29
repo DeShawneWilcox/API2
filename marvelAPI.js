@@ -8,7 +8,7 @@ let searchForm = document.querySelector('form');
 let submitBtn = document.querySelector('.submit');
 let section = document.querySelector('section');
 
-searchForm.addEventListener('submit' , displayResults);
+searchForm.addEventListener('submit' , displayResults); 
 
 // let characters = [];
 

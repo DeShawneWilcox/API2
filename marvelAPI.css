@@ -1,0 +1,16 @@
+.marvelUcd {
+    text-align: center;
+}
+
+.welcomeMessage {
+    text-align: center;
+    margin: 4em;
+}
+
+.search {
+   display: inline-block;
+   float: right;
+   
+}
+
+
