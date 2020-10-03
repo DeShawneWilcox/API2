@@ -3,14 +3,59 @@
 }
 
 .welcomeMessage {
-    text-align: center;
-    margin: 4em;
+    display: inline-flex;
+    text-align: left;
+    margin-right: 14em;
+    margin-left: 2em;
+    font-size: 40px;
 }
+p {
+    text-shadow: 0 0 50px rgb(165, 16, 16);
+  }
 
 .search {
-   display: inline-block;
-   float: right;desktop
+   /* display: inline-block; */
+   width: 40%;
+   padding-bottom: 2em;
+   
+  
+   
    
 }
 
+.submit {
+    border-radius: 5px;
+    font-size: 30px;
+    border: solid,
+    
+    
+    
+}
 
+
+.enter {
+    padding: 10.2em;
+}
+
+
+.CharacterName {
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    margin: 2em;
+}
+
+.characterDescription {
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    text-align: center;
+    margin: 2em;
+}
+
+.marvelSeries {
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    text-align: center;
+    margin: 2em;
+}

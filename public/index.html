@@ -2,39 +2,67 @@
 <html lang="en">
 <head>
     <style>
+         .section {
+            text-align: center;
+            
+            
+        } 
+
         body {
-            background-image: url('./assets/portalGif.gif');
+            background-image: url('./assets/ironman.jpg');
+            background-attachment: fixed;
+            background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+
+
+            
+            
         }
+     
+        
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="marvelAPI.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <title>Marvel Universe API</title>
 </head>
 <body>
 
-    <title>Marvel Universe API</title>
-
-    <h1 class="marvelUcd" style="color: white; ">Marvel Universe: Character Directory</h1>
-        <div class= "wrapper">
-            <div class= "searchControls">
-                <p class ="welcomeMessage" style="color:whitesmoke;">The Marvel Universe has many superheros to root for, as well as villains to root against! Check out this directory of hundreds of Marvel characters. Avengers, Assemble!</p>
-                <!-- Seach Form -->
-                <form>
-                    <label for="search">Enter a Marvel Superhero: </label>
-                    <input type="text" id="search" class="search" required>
-                    <br>
-                    <br>
-                    <button class="submit" style= "color: silver; background-color: rgb(61, 7, 148);">Submit search</button>
-                </form>  
-            </div>
     
 
-            <section>
-                <!-- Results -->
-                </section>
+    <h1 class="marvelUcd" style="color: rgb(165, 16, 16); font-family: 'Bebas Neue', cursive; ;  ">Marvel Universe: Character Directory</h1>
+        <div class= "wrapper">
+            <div class= "searchControls">
+                <p class ="welcomeMessage" style="color: rgb(255, 255, 255); font-family: 'Bebas Neue', cursive;"> The Marvel Universe has many superheros to root for, as well as villains to root against! Check out this directory of hundreds of Marvel characters. Marvel Characters, Assemble!</p>
+                <!-- Seach Form -->
+                <form>
+                    <div>
+                    <label class="enter" for="search" style="color: rgb(165, 16, 16); font-family: 'Bebas Neue', cursive; font-size: 30px; margin-left: 5em;">Enter a Marvel Superhero: </label>
+                    </div>
+                    <div class="find" style="display: flex; justify-content: center;">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search" class="search" required >
+                    </div>
+                    
+                    <br>
+                    <br>
+                    <div class="button" style="display: flex; justify-content: center;">
+                    <button class="submit" style= "color: silver; background-color: rgb(61, 7, 148) ">Submit</button>
+                    </div>
+                </form>  
+
+                
+            </div>
+
+                <div class="section">
+                    <section>
+                    <!-- Results -->
+                    </section>
+                </div>
         </div>
     
     
